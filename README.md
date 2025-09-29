@@ -20,7 +20,9 @@ This repository contains the implementation of a **Linear Model Predictive Contr
 1. Clone the repository:
    
    git clone https://github.com/<username>/EL2700-LinearMPC-Assignment4.git
+   
    pip install numpy scipy matplotlib cvxpy
+   
    python task4.py
 
 ---
