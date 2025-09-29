@@ -16,27 +16,13 @@ This repository contains the implementation of a **Linear Model Predictive Contr
 
 ---
 
-## Repository Structure
-EL2700-LinearMPC-Assignment4/
-│
-├── linear_car_model.py # Vehicle model parameters
-├── road.py # Racetrack data
-├── sim.py # Simulation routines
-├── mpc_controller.py # MPC & dual-mode MPC implementation
-├── task4.py # Main script for simulation
-├── u_ff.npy # Feedforward input
-├── x_ff.npy # Feedforward states
-├── raceline.npy # Racetrack reference points
-└── Assignment4_<STUDENT1>_<STUDENT2>.pdf # Report with answers, plots
-
-
----
-
 ## Installation & Usage
 1. Clone the repository:
    ```bash
    git clone https://github.com/<username>/EL2700-LinearMPC-Assignment4.git
+```bash
 pip install numpy scipy matplotlib cvxpy
+```bash
 python task4.py
 
 ## Features
