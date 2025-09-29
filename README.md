@@ -20,11 +20,12 @@ This repository contains the implementation of a **Linear Model Predictive Contr
 1. Clone the repository:
    ```bash
    git clone https://github.com/<username>/EL2700-LinearMPC-Assignment4.git
-```bash
+   ```bash
 pip install numpy scipy matplotlib cvxpy
-```bash
+   ```bash
 python task4.py
 
+---
 ## Features
 
 Linear MPC for vehicle trajectory tracking.
@@ -33,6 +34,7 @@ Input and state constraints enforcement.
 LQR vs MPC comparison.
 Configurable horizon (N) and solver (CLARABEL or MOSEK).
 
+---
 ## References
 
 EL2700 Course Materials, KTH
